@@ -2238,13 +2238,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 874220471}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc47535296b3f4be0b93d8bc92310fcb, type: 3}
+  m_Script: {fileID: 11500000, guid: e16b5ad954637492eaef607ec1ab9b42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pathList: []
-  rb: {fileID: 874220476}
-  speed: 50
-  shouldMove: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
