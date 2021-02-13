@@ -8,7 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/BoardGyroMove.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CompassMove2.unity
     guid: 4bfff10602af243d99846d2e04942358
+  - enabled: 1
+    path: Assets/Scenes/BallFollowFingerWithoutForce.unity
+    guid: adcb2e0f482a14c7e96f06100846d108
   m_configObjects: {}

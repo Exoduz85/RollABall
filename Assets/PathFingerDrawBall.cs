@@ -2,13 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-
 public class PathFingerDrawBall : MonoBehaviour{
     public LineRenderer lr;
-    public Queue<Vector3> vectorPoints;
+    private Queue<Vector3> vectorPoints;
     private RaycastHit hitInfo;
     private Vector3 velocity = Vector3.zero;
-
     void Update()
     {
         if (Input.GetMouseButtonDown(0)){
@@ -24,7 +22,6 @@ public class PathFingerDrawBall : MonoBehaviour{
             lr.positionCount = vectorPoints.Count;
             lr.SetPositions(vectorPoints.ToArray());
         }
-
         if (Input.GetMouseButtonUp(0)){
             StartCoroutine(PlayRecordedInput());
         }
